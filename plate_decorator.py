@@ -16,17 +16,17 @@ class PlateDecorator(Plate, ABC):
         self._plate = p
 
     def description(self) -> str:
-        """:return: The description of :attr:`self._plate`."""
+        """:return: A string description of the plate and what is on it."""
         return self._plate.description()
 
     def area(self) -> int:
-        """:return: The area of :attr:`self._plate`."""
+        """:return: The remaining square inches the plate can hold."""
         return self._plate.area()
 
     def weight(self) -> int:
-        """:return: The weight capacity of :attr:`self._plate`."""
+        """:return: The remaining number of ounces the plate can hold."""
         return self._plate.weight()
 
     def count(self) -> int:
-        """:return: The number of food items on :attr:`self._plate`."""
+        """:return: The number of food items the plate is currently holding."""
         return self._plate.count()

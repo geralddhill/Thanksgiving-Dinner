@@ -16,5 +16,5 @@ class SmallPlate(Plate):
         return 32
 
     def count(self) -> int:
-        """:return: 0 (the plate starts with nothing on it)."""
+        """:return: Zero (the plate starts with nothing on it)."""
         return 0
