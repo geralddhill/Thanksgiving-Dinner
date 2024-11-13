@@ -8,7 +8,7 @@ class PlateDecorator(Plate, ABC):
         _plate: :class:`Plate` attribute to represent a plate with food on it.
     """
 
-    def __init__(self, p: Plate):
+    def __init__(self, p: Plate) -> None:
         """Constructor for :class:`PlateDecorator`.
 
         :param p: :class:`Plate` attribute to represent the previous state of the plate.

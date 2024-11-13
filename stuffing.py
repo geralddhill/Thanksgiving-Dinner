@@ -15,9 +15,9 @@ class Stuffing(PlateDecorator):
         desc = super().description()
 
         if self.count() > 1:
-            desc += " and"
+            desc += " and "
 
-        return desc + " Stuffing"
+        return desc + "Stuffing"
 
     def area(self) -> int:
         """ Removes the area of the stuffing from the area left of the plate.

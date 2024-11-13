@@ -15,9 +15,9 @@ class Pie(PlateDecorator):
         desc = super().description()
 
         if self.count() > 1:
-            desc += " and"
+            desc += " and "
 
-        return desc + " Pie"
+        return desc + "Pie"
 
     def area(self) -> int:
         """ Removes the area of the pie from the area left of the plate.

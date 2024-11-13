@@ -15,9 +15,9 @@ class Turkey(PlateDecorator):
         desc = super().description()
 
         if self.count() > 1:
-            desc += " and"
+            desc += " and "
 
-        return desc + " Turkey"
+        return desc + "Turkey"
 
     def area(self) -> int:
         """ Removes the area of the turkey from the area left of the plate.

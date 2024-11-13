@@ -15,9 +15,9 @@ class GreenBeans(PlateDecorator):
         desc = super().description()
 
         if self.count() > 1:
-            desc += " and"
+            desc += " and "
 
-        return desc + " Green Beans"
+        return desc + "Green Beans"
 
     def area(self) -> int:
         """ Removes the area of the green beans from the area left of the plate.

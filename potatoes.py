@@ -15,9 +15,9 @@ class Potatoes(PlateDecorator):
         desc = super().description()
 
         if self.count() > 1:
-            desc += " and"
+            desc += " and "
 
-        return desc + " Potatoes"
+        return desc + "Potatoes"
 
     def area(self) -> int:
         """ Removes the area of the potatoes from the area left of the plate.
